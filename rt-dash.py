@@ -77,7 +77,7 @@ try:
 except URLError as e:
     st.error(
         """
-        **This demo requires internet access.**
+        **This requires internet access.**
         Connection error: %s
     """
         % e.reason
